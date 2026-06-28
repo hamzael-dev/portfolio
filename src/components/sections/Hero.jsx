@@ -75,7 +75,6 @@ font-semibold
 
           <span
             className="
-            inline-block
             bg-gradient-to-r
             from-purple-400
             via-pink-400
