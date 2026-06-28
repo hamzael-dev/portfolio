@@ -71,6 +71,8 @@ font-semibold
           "
         >
 
+
+        </motion.h1>
           Hi, I'm{" "}
 
           <span
@@ -88,8 +90,6 @@ font-semibold
           >
             Hamza El Azrak
           </span>
-
-        </motion.h1>
 
 
         {/* Description */}
