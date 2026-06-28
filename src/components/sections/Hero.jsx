@@ -71,8 +71,6 @@ font-semibold
           "
         >
 
-
-        </motion.h1>
           Hi, I'm{" "}
 
           <span
@@ -83,13 +81,14 @@ font-semibold
             via-pink-400
             to-cyan-400
             bg-clip-text
-            text-transparent
             [-webkit-background-clip:text]
             [-webkit-text-fill-color:transparent]
             "
           >
             Hamza El Azrak
           </span>
+
+        </motion.h1>
 
 
         {/* Description */}
