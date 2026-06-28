@@ -25,7 +25,7 @@ export default function Skills(){
             from-purple-400
             to-cyan-400
             bg-clip-text
-            text-transparent
+
           ">
             Skills
           </span>
