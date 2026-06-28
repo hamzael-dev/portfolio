@@ -74,15 +74,7 @@ font-semibold
           Hi, I'm{" "}
 <span
 className="
-inline-block
-bg-gradient-to-r
-from-purple-400
-via-pink-400
-to-cyan-400
-bg-clip-text
-text-transparent
-[-webkit-background-clip:text]
-[-webkit-text-fill-color:white]
+name-gradient
 "
 >
 Hamza El Azrak

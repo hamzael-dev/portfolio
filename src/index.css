@@ -31,3 +31,19 @@ body {
 span {
   -webkit-font-smoothing: antialiased;
 }
+
+
+.name-gradient {
+  background: linear-gradient(
+    90deg,
+    #c084fc,
+    #f472b6,
+    #22d3ee
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
