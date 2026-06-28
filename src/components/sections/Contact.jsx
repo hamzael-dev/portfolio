@@ -37,9 +37,7 @@ export default function Contact() {
                         ">
                         Let's work{" "}
                         <span className="
-                            bg-gradient-to-r
-                            from-purple-400
-                            to-cyan-400
+  name-gradient
                             bg-clip-text
                            
                             ">

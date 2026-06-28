@@ -21,9 +21,7 @@ export default function Skills(){
         ">
           My{" "}
           <span className="
-            bg-gradient-to-r
-            from-purple-400
-            to-cyan-400
+   name-gradient
             bg-clip-text
 
           ">
