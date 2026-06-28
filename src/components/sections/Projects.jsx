@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { Github, ExternalLink } from "lucide-react";
+import {ExternalLink } from "lucide-react";
+import { FaGithub} from "react-icons/fa";
 import { projects } from "../../data/projects";
 
 
@@ -182,7 +183,7 @@ py-2
 hover:bg-white/10
 "
 >
-<Github size={18}/>
+<FaGithub size={18}/>
 Github
 </a>
 

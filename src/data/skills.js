@@ -5,6 +5,9 @@ import {
   FaDocker,
   FaGitAlt,
   FaBootstrap,
+  FaHtml5,
+  FaCss3,
+  FaPhp,
 } from "react-icons/fa";
 
 import {
@@ -14,6 +17,7 @@ import {
   SiExpress,
   SiJavascript,
   SiTypescript,
+  SiNextdotjs 
 } from "react-icons/si";
 
 
@@ -23,6 +27,14 @@ export const skills = [
     category: "Frontend",
     items: [
       {
+        name: "Html",
+        icon: FaHtml5,
+      },
+      {
+        name: "CSS",
+        icon: FaCss3,
+      },
+      {
         name: "React.js",
         icon: FaReact,
       },
@@ -31,9 +43,18 @@ export const skills = [
         icon: SiJavascript,
       },
       {
+        name: "TypeScript",
+        icon: SiTypescript,
+      },
+      {
+        name: "Next.js",
+        icon: SiNextdotjs ,
+      },
+      {
         name: "Tailwind CSS",
         icon: SiTailwindcss,
       },
+      
       {
         name: "Bootstrap",
         icon: FaBootstrap,
@@ -45,6 +66,10 @@ export const skills = [
   {
     category: "Backend",
     items: [
+      {
+        name: "PHP",
+        icon: FaPhp,
+      },
       {
         name: "Laravel",
         icon: FaLaravel,
@@ -80,10 +105,7 @@ export const skills = [
         name: "Git",
         icon: FaGitAlt,
       },
-      {
-        name: "TypeScript",
-        icon: SiTypescript,
-      },
+
     ],
   },
 

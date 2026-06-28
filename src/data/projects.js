@@ -1,17 +1,23 @@
 export const projects = [
   {
-    title: "Gestion Stock",
+    title: "Gestion Stock & POS System",
+
     description:
-      "A complete inventory management system with products, categories, suppliers and stock tracking.",
-    image: "/projects/stock.png",
+      "A complete inventory and point of sale management system for managing products, categories, suppliers, purchases, sales, stock movements and invoices.",
+
+    image: "/images/stock.png",
+
     technologies: [
       "Laravel",
       "Blade",
       "Bootstrap",
-      "MySQL"
+      "MySQL",
+      "Livewire"
     ],
+
     github:
       "https://github.com/hamzael-dev/gestion_stock_v2",
+
     demo: "#"
   },
 
@@ -20,44 +26,51 @@ export const projects = [
     title: "E-commerce Platform",
     description:
       "Modern e-commerce application with products, cart, orders and authentication.",
-    image: "/projects/ecommerce.png",
+    image: "/images/ecommerce.png",
     technologies: [
       "React",
       "Laravel",
       "Tailwind",
       "MySQL"
     ],
-    github: "#",
+    github: "https://github.com/hamzael-dev/Ecommerce-FullStack",
     demo: "#"
   },
 
+  // {
+  //   title: "POS System",
+  //   description:
+  //     "Point of sale system for managing products, sales and invoices.",
+  //   image: "/projects/pos.png",
+  //   technologies: [
+  //     "Laravel",
+  //     "Livewire",
+  //     "Bootstrap"
+  //   ],
+  //   github: "#",
+  //   demo: "#"
+  // },
 
-  {
-    title: "POS System",
-    description:
-      "Point of sale system for managing products, sales and invoices.",
-    image: "/projects/pos.png",
-    technologies: [
-      "Laravel",
-      "Livewire",
-      "Bootstrap"
-    ],
-    github: "#",
-    demo: "#"
-  },
+{
+  title: "Trainee Attendance & Schedule Management",
 
+  description:
+    "A web application designed to manage trainees, groups, training sessions, attendance records and weekly schedules with an intuitive dashboard.",
 
-  {
-    title: "Attendance Management",
-    description:
-      "Training attendance tracking system with groups, sessions and reports.",
-    image: "/projects/attendance.png",
-    technologies: [
-      "Laravel",
-      "Livewire",
-      "MySQL"
-    ],
-    github: "#",
-    demo: "#"
-  }
+  image: "/images/absence.png",
+
+  technologies: [
+    "Laravel",
+    "Livewire 3",
+    "Bootstrap",
+    "MySQL",
+    "DomPDF"
+  ],
+
+  github:
+    "https://github.com/hamzael-dev/Gestion-Absences",
+
+  demo:
+    "#"
+}
 ];
